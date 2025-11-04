@@ -20,4 +20,41 @@ body {
     background-color: #E5E7EB;
     color:#1F2937;
     padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+  width: 90%;
+  max-width: 1000px; 
+  margin: 0 auto; 
+}
+.header-section .container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.hero-section .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+.info-boxes-container {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.cta-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+.quote-text {
+    font-weight: 300;
+    font-style: italic;
+}
+.quote-author {
+    font-weight: 900;
+    text-align: right;
 }
