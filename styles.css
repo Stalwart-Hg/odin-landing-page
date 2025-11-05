@@ -40,6 +40,12 @@ body {
     align-items: center;
     gap: 32px;
 }
+.header-section ul {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    list-style-type: none;
+}
 .info-boxes-container {
     display: flex;
     justify-content: center;
@@ -47,14 +53,98 @@ body {
 }
 .cta-card {
     display: flex;
-    justify-content: space-between;
-    gap: 32px;
+    justify-content: center;
+    gap: 100px;
+    background-color: #3882F6;
+    padding: 30px;
+    border-radius: 5px;
+    color:white;
+    width: 800px;
 }
 .quote-text {
     font-weight: 300;
     font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
 }
 .quote-author {
     font-weight: 900;
     text-align: right;
+}
+h1 {
+    font-weight: 900;
+    color:#F9FAF8;
+    font-size: 48px;
+}
+.hero-content p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.header-section nav a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.hero-content {
+    flex:1;
+}
+.hero-image {
+    flex: 1;
+}
+.image-placeholder {
+    background-color: grey;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+}
+.hero-section button , .cta-section button {
+    background-color: #3882F6;
+    border:0;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.info-section h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+.cta-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-box {
+    text-align: center;
+    width: 160px; 
+    margin-bottom: 8px;
+}
+.info-image-box {
+    width: 160px;
+    height: 160px;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    margin-bottom: 8px;
+}
+.quote-section blockquote {
+    width: 780px;
+}
+.cta-section button {
+    border: 2px solid white;
+    width: 130px;
 }
